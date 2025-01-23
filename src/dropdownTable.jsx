@@ -54,7 +54,6 @@ const DropdownInput = () => {
                   avoidHighlightFirstOption
                   showArrow
                   selectionLimit={1}
-                  showArrow
                 />
               </td>
               <td>

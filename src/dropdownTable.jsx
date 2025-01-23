@@ -52,6 +52,7 @@ const DropdownInput = () => {
                   options={options}
                   displayValue="label"
                   avoidHighlightFirstOption
+                  showArrow
                   selectionLimit={1}
                   showArrow
                 />

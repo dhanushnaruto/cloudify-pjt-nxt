@@ -52,6 +52,7 @@ const DropdownInput = () => {
                   options={options}
                   displayValue="label"
                   avoidHighlightFirstOption
+                  showArrow
                   selectionLimit={1}
                 />
               </td>
@@ -61,6 +62,7 @@ const DropdownInput = () => {
                   displayValue="label"
                   avoidHighlightFirstOption
                   showCheckbox
+                  showArrow
                   selectedValues={selectedValues[index] || []}
                   onSelect={(selectedList) =>
                     onSelect(selectedList, index)
